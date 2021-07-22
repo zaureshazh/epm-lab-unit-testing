@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="test" verbose="1" parallel="false">
+    <test name="Run other calculator functions">
+        <groups>
+            <run>
+                <include name="other"/>
+            </run>
+        </groups>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Main" verbose="1" parallel="false">
+    <test name="Run main calculator functions">
+        <classes>
+            <class name="calculator.sub.SubDoubleCalculatorTest"/>
+            <class name="calculator.sub.SubLongCalculatorTest"/>
+            <class name="calculator.sum.SumDoubleCalculatorTest"/>
+            <class name="calculator.sum.SumLongCalculatorTest"/>
+            <class name="calculator.mult.MultDoubleCalculatorTest"/>
+            <class name="calculator.mult.MultLongCalculatorTest"/>
+            <class name="calculator.div.DivDoubleCalculatorTest"/>
+            <class name="calculator.div.DivLongCalculatorTest"/>
+        </classes>
+    </test>
+</suite>

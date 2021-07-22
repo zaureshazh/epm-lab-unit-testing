@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Trigonometry" verbose="1" parallel="true">
+    <test name="Run trigonometry calculator functions">
+        <groups>
+            <run>
+                <include name="trigonometry"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="calculator.trigonomertry.SinCalculatorTest"/>
+            <class name="calculator.trigonomertry.SinCalculatorTest"/>
+            <class name="calculator.trigonomertry.SinCalculatorTest"/>
+            <class name="calculator.trigonomertry.CosCalculatorTest"/>
+            <class name="calculator.trigonomertry.CosCalculatorTest"/>
+            <class name="calculator.trigonomertry.CosCalculatorTest"/>
+            <class name="calculator.trigonomertry.TgCalculatorTest"/>
+            <class name="calculator.trigonomertry.TgCalculatorTest"/>
+            <class name="calculator.trigonomertry.CtgCalculatorTest"/>
+            <class name="calculator.trigonomertry.CtgCalculatorTest"/>
+        </classes>
+    </test>
+</suite>
