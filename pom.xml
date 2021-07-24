@@ -18,7 +18,6 @@
             <groupId>com.epam.tat.module4</groupId>
             <artifactId>calculator</artifactId>
             <version>1.0</version>
-            <systemPath>C:/temp/epm-lab-unit-testing/src/lib/calculator-1.0.jar</systemPath>
         </dependency>
     </dependencies>
 
